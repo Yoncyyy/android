@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.jisuanqi.QQ_1"
+    android:background="#d0ffff00">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/music"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/music"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/drow"
+        android:layout_marginLeft="260dp"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/vd"
+        android:layout_marginLeft="135dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更多玩耍方式"
+        android:textSize="22dp"
+        android:textColor="#ff4abaff"
+        android:layout_below="@+id/music"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/sing"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K歌"
+        android:textSize="25dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="150dp"
+        android:background="#00ffffff" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cut"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="理发"
+        android:textSize="25dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="150dp"
+        android:background="#0000ffa9" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cz"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打人"
+        android:textSize="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="150dp"
+        android:background="#0000ffa7" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lb"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="怒吼"
+        android:textSize="25dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="150dp"
+        android:background="#00ff5000" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shop"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="购物"
+        android:textSize="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        android:background="#0000ffa8" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/man"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="80dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="65dp"
+        android:text="单人模式"
+        android:textSize="20dp"
+        android:background="#0000ffa8" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/mans"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="220dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="205dp"
+        android:text="多人模式"
+        android:textSize="20dp"
+        android:background="#32002619" />
+</RelativeLayout>

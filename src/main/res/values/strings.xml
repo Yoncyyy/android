@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yoncy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_qq">QQ</string>
+    <string name="title_activity_qq_1">QQ_1</string>
+    <string name="title_activity_pinglun">pinglun</string>
+</resources>

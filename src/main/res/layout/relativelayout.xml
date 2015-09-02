@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/koukou">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img"
+        android:background="@mipmap/ic_launcher" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_1"
+        android:text="QQ登录"
+        android:textColor="#a51c0aff"
+        android:textSize="40dp"
+        android:layout_toRightOf="@+id/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一个用户的选择"
+        android:textColor="#ffff31fe"
+        android:layout_alignBottom="@+id/img"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:id="@+id/txt_2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ账户/邮箱/手机"
+        android:textSize="20dp"
+        android:layout_below="@id/txt_1"
+        android:id="@+id/user"
+        android:textColor="#ff17e2ff"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ密码"
+        android:textSize="20dp"
+        android:layout_below="@id/user"
+        android:id="@+id/pwd"
+        android:textColor="#ffff8d40"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textSize="30dp"
+        android:textColor="#ffff0115"
+        android:layout_below="@+id/pwd"
+        android:background="#ff73ff4c"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+</RelativeLayout>
